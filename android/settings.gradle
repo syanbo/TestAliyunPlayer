@@ -1,0 +1,5 @@
+rootProject.name = 'TestAliyunPlayer'
+include ':react-native-aliyun-player'
+project(':react-native-aliyun-player').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-aliyun-player/android')
+
+include ':app'
